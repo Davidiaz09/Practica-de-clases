@@ -1,13 +1,13 @@
-#CREACION CUENTA BANCARIA
+#PRACTICA CLASES-CREACION CUENTA BANCARIA
 
 #Definir clase "Persona" con atributos: nombre, apellido.
-#Definir clase hija "Cliente". Atributos propios: número de cuenta, balance (saldo disponible)
-#   Metodos de "Cliente": imprimir: cuando el código pida imprimir "cliente" se muestren todos sus datos, incluyendo el balance
-#                         depositar: permitirá depositar dinero en la cuenta
-#                         retirar: permitirá retirar dinero de la cuenta
+#Definir clase hija "Cliente". Atributos propios: número de cuenta, balance (saldo disponible).
+# Metodos de "Cliente": imprimir: cuando el código pida imprimir "cliente" se muestren todos sus datos, incluyendo el balance
+#                        depositar: permitirá depositar dinero en la cuenta.
+#                        retirar: permitirá retirar dinero de la cuenta.
 
 #Opciones del programa: depositar(seguir), retirar(seguir), salir(finalizar programa).
-#Definir funciones: 1. crear al cliente, definir sus atributos.   2. inicio del programa y mostrar opciones(bucle while)
+#Definir funciones: 1. crear al cliente, definir sus atributos.   2. inicio del programa y mostrar opciones(bucle while).
 
 class Persona:
     def __init__(self, nombre, apellido):
